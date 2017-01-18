@@ -47,7 +47,7 @@ class Home extends React.Component {
 
     render() {
         return (
-            <div>
+            <div id="home">
                 <div id="header">
                     <SearchBar onStockSelected={this.onStockSelected} />
                 </div>
