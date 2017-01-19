@@ -4,7 +4,7 @@ export default class PriceInfo extends React.Component {
     render(){
         var price = this.props.price;
         return(
-            <div id="priceInfo">
+            <div className="priceInfo">
                 <div className="details">
                     <div className="largeText">{price.open}</div>
                     <div className="smallText">OPEN</div>

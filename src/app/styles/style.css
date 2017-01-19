@@ -128,7 +128,7 @@ body {
     padding-top: 0.95rem;
 }
 
-#home #mainContent #stockCard #priceInfo {
+#home #mainContent #stockCard .priceInfo {
     flex: 1 0 6rem;
     display: flex;
     flex-flow: row wrap;
@@ -136,22 +136,22 @@ body {
     background-color: lavender;
 }
 
-#home #mainContent #stockCard #priceInfo .details {
+#home #mainContent #stockCard .priceInfo .details {
     flex: 1 0 50%;
     color: black;
     padding-top: 0.35rem;
 }
 
-#stockCard #priceInfo .details:nth-child(1) {
+#stockCard .priceInfo .details:nth-child(1) {
     border-right: 2px solid white;
     border-bottom: 2px solid white;
 }
 
-#stockCard #priceInfo .details:nth-child(2) {
+#stockCard .priceInfo .details:nth-child(2) {
     border-bottom: 2px solid white;
 }
 
-#stockCard #priceInfo .details:nth-child(3) {
+#stockCard .priceInfo .details:nth-child(3) {
     border-right: 2px solid white;
 }
 
