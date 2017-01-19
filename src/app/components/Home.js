@@ -1,6 +1,6 @@
 import React from 'react';
 import SearchBar from './header/SearchBar';
-import StockInfo from './content/StockInfo';
+import StockInfo from './content/StockCard';
 
 
 class Home extends React.Component {
